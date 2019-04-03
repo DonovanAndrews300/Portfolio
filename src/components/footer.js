@@ -3,22 +3,16 @@ import React from 'react'
 const Socials = [
   {
     name: 'Email',
-    link: 'mailto:katherine.a.kato@gmail.com'
+    link: 'mailto:donovanandrews300@gmail.com'
   }, {
     name: 'Twitter',
-    link: 'https://twitter.com/kato_katherine'
+    link: 'https://twitter.com/Donnyboy360'
   }, {
     name: 'Instagram',
-    link: 'https://www.instagram.com/kathy.kato'
-  }, {
-    name: 'Dribbble',
-    link: 'https://dribbble.com/kathykato'
-  }, {
-    name: 'CodePen',
-    link: 'https://codepen.io/kathykato'
+    link: 'https://www.instagram.com/donny130/'
   }, {
     name: 'GitHub',
-    link: 'https://github.com/kathykato'
+    link: 'https://github.com/DonovanAndrews300'
   }
 ]
 
@@ -32,7 +26,7 @@ const Footer = () => (
               <li><a className="page-link" href={link.link} title={link.name} target="_blank" rel="noopener noreferrer">{link.name}</a></li>
             ))}
           </ul>
-          <p className="copyright">&copy; {new Date().getFullYear()} Katherine Kato.</p>
+          <p className="copyright">&copy; {new Date().getFullYear()} Donovan Andrews.</p>
         </div>
       </div>
     </div>

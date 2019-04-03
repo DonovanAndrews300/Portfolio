@@ -2,8 +2,6 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
-
-import Background from './background'
 import Header from './header'
 import Footer from './footer'
 
@@ -32,7 +30,6 @@ const Layout = ({ children, data }) => (
         >
           <html lang="en" />
         </Helmet>
-        <Background />
         <Header />
         <main className="page-content">
           {children}

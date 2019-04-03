@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Katherine Kato - Web Designer & Front-End Web Developer`,
+    title: `Donovan Andrews - Web Developer`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -25,8 +25,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Katherine Kato',
-        short_name: 'KKato',
+        name: 'Donovan Andrews',
+        short_name: 'Don',
         start_url: '/',
         background_color: '#fffdfd',
         theme_color: '#fffdfd',
