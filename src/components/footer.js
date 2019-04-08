@@ -13,6 +13,10 @@ const Socials = [
   }, {
     name: 'GitHub',
     link: 'https://github.com/DonovanAndrews300'
+  },
+  {
+    name: 'Linkedin',
+    link: 'https://www.linkedin.com/in/donovan-andrews-964512159/'
   }
 ]
 

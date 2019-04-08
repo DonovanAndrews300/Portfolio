@@ -23,7 +23,7 @@ class Index extends React.Component {
             </div>
             <div className="column-xs-12 column-md-9">
               <p>I enjoy building user interfaces , web apps, and design. In addition to the technologies I know, I'm constantly learning new things everyday about development through meet-ups, online courses, and workshops. I have passion for self-learning and strive to challenge myself to become better at what I do.</p>
-              <p>When I'm not coding, you can often find me spending my free time journaling, reading, or playing video games.</p>
+              <p>When I'm not coding, you can often find me spending my free time .</p>
             </div>
             <div className="column-xs-12 column-md-3">
               <h3>Tech Stack</h3>
