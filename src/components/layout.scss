@@ -264,24 +264,6 @@ footer {
   }
 }
 
-.blog-post {
-  margin: 0 0 2rem;
-  padding: 0 0 2rem;
-  border-bottom: 0.0625rem solid $divider;
-  &:hover {
-    .blog-link {
-      color: $black;
-      &::after {
-        visibility: visible;
-        transform: translateX(0);
-      }
-    }
-  }
-  .date {
-    margin: 0;
-  }
-  
-}
 
 #about {
   padding-top: 1rem;
@@ -297,6 +279,10 @@ footer {
   }
 }
 
+#about img {
+  height: 320px;
+  float: right;
+}
 
 .grid {
   display: flex;

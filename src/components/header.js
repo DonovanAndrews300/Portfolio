@@ -12,7 +12,7 @@ const Header = () => (
           </div>
           <div className="column-xs-5 column-md-3">
             <ul>
-              <li><AnchorLink href="#about">About</AnchorLink></li>
+            
             </ul>
           </div>
         </div>
