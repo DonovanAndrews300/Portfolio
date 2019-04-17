@@ -24,8 +24,8 @@ const Layout = ({ children, data }) => (
         <Helmet
           title={data.site.siteMetadata.title}
           meta={[
-            { name: 'description', content: 'A front-end web developer based in Seattle. I enjoy crafting digital experiences through code & design.' },
-            { name: 'keywords', content: 'katherine kato, web design, front-end web development' },
+            { name: 'description', content: 'A web developer based in Ann Arbor,MI' },
+            { name: 'keywords', content: 'donovan andrews, web developer,' },
           ]}
         >
         <meta property="og:image" content="src/images/thumbnail_photo.png" /> 
