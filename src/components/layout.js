@@ -28,6 +28,10 @@ const Layout = ({ children, data }) => (
             { name: 'keywords', content: 'katherine kato, web design, front-end web development' },
           ]}
         >
+        <meta property="og:image" content="src/images/thumbnail_photo.png" /> 
+          <meta property="og:title" content="Donovan Andrews-Web Developer."/>
+          <meta property="og:description" content="Web developer based in Ann Arbor,MI"/>
+          <meta property="og:url" content="https://donovanandrews.net/"></meta>
           <html lang="en" />
         </Helmet>
         <Header />
