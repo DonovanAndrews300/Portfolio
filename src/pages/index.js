@@ -70,11 +70,10 @@ class Index extends React.Component {
             <div className="column-xs-6 column-md-6">
               <p>I enjoy building user interfaces , web apps, and design. In addition to the technologies I know,
                  I'm constantly learning new things everyday about development through meet-ups, online courses, and workshops. 
-                 I have a passion for self-learning and a strive to challenge myself to become better at what I do.
+                 I have a passion for self-learning and I strive to challenge myself to become better at what I do.
                  When I'm not coding, you can often find me journaling,reading,or playing games.</p>
             </div>
             <div  className="column-xs-6 column-md-3">
-            <img src={me} alt={'Donovan'}/>
             </div>
             <div className="column-xs-12 column-md-3">
               <h3>Tech Stack</h3>
