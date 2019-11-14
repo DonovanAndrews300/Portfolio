@@ -1,7 +1,6 @@
 import React from 'react'
 import Layout from '../components/layout'
 import { graphql } from 'gatsby'
-import me from '../images/me.jpg'
 import Img from 'gatsby-image'
 
 class Index extends React.Component {
