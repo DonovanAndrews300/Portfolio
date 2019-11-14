@@ -11,26 +11,34 @@ class Index extends React.Component {
     const calc = data.calc.childImageSharp.fluid
     const stc = data.stc.childImageSharp.fluid
     const portfolio = data.portfolio.childImageSharp.fluid
+    const hangtime = data.hangtime.childImageSharp.fluid
 
     const Portfolio = [
       {
         name: 'See The Color',
-        subtitle: 'Diversity Consulting Website',
+        subtitle: 'Diversity Consulting Website built using Gatsby.js',
         image: stc,
         color: '#ffd866',
         link: 'https://github.com/DonovanAndrews300/stc'
       }, {
         name: 'Budgeting calculator',
-        subtitle: 'Javascript Calculator Project.',
+        subtitle: 'Javascript calculator project built in node',
         image:calc ,
         color: '#dae0ef',
         link: 'https://github.com/DonovanAndrews300/BudgetingApp'
       }, {
         name: 'Portfolio',
-        subtitle: 'Older Portfolio',
+        subtitle: 'First portfolio built with html/css and bootstrap',
         image:portfolio,
         color: '#acd2ff',
         link: 'https://github.com/DonovanAndrews300/donovan.com'
+      },
+      {
+        name: 'Hangtime',
+        subtitle: 'App that gives you a random activity to do with your friends. Built with the MERN stack',
+        image:hangtime,
+        color: '#acd2ff',
+        link: 'https://github.com/DonovanAndrews300/Hangtime'
       },
     ]
 
